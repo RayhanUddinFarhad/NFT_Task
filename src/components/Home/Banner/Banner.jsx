@@ -3,6 +3,7 @@ import img1 from '../../../assets/Images/BannerImage-1.png'
 import img2 from '../../../assets/Images/BannerImage-2.png'
 import img3 from '../../../assets/Images/BannerImage-3.png'
 import person from '../../../assets/Images/person1.png'
+import dot from '../../../assets/Images/Dot.png'
 
 const Banner = () => {
     return (
@@ -11,22 +12,25 @@ const Banner = () => {
                 <div className='space-y-5 max-w-3xl'>
                     <h1 className='text-5xl font-extrabold uppercase'>Discover, And Collect Digital Art NFTS</h1>
                     <p>Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.</p>
-                    <button className='bg-[#3D00B7] text-white py-3 px-5 rounded-3xl font-semibold'>Explore more</button>
+                    <div>
+
+                        <button className='bg-[#3D00B7] text-white py-3 px-5 rounded-3xl font-semibold'>Explore more</button>
 
 
-                    <div className='flex space-x-5'>
+                        <div className='flex space-x-5 bg-no-repeat bg-contain py-8' style={{backgroundImage: `url(${dot})`}}>
 
-                        <div>
-                            <h1 className='text-5xl font-extrabold'>98k+</h1>
-                            <p>Artwork</p>
-                        </div>
-                        <div>
-                            <h1 className='text-5xl font-extrabold'>12k+</h1>
-                            <p>Auction</p>
-                        </div>
-                        <div>
-                            <h1 className='text-5xl font-extrabold'>15k+</h1>
-                            <p>Artist</p>
+                            <div>
+                                <h1 className='text-5xl font-extrabold'>98k+</h1>
+                                <p>Artwork</p>
+                            </div>
+                            <div>
+                                <h1 className='text-5xl font-extrabold'>12k+</h1>
+                                <p>Auction</p>
+                            </div>
+                            <div>
+                                <h1 className='text-5xl font-extrabold'>15k+</h1>
+                                <p>Artist</p>
+                            </div>
                         </div>
                     </div>
 
