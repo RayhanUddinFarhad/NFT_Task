@@ -55,7 +55,7 @@ const Discover = () => {
                     <label tabIndex={0} className="bg-gray-100 p-1 rounded-3xl normal-case text-sm flex items-center"> <FaSort></FaSort>
                         <p className='whitespace-nowrap'> All Filters</p></label>
                     <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a onClick={handleSortByEth}>Sort by ETH</a></li>
+                        <li><a onClick={handleSortByEth}>Sort by Low ETH</a></li>
                     </ul>
                 </div>
                     </div>

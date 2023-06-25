@@ -7,6 +7,7 @@ import dot from '../../../assets/Images/Dot.png'
 import CountUp from 'react-countup';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import signIcon from '../../../assets/Images/Icons/Sign.png'
 // ..
 AOS.init();
 const Banner = () => {
@@ -54,6 +55,9 @@ const Banner = () => {
 
                                 </div>
                             </div>
+
+
+                            <img className='absolute -left-12 bottom-20 w-24 hidden lg:block' src= {signIcon} alt="" />
 
 
                             <div className='absolute bottom-5  w-full'>

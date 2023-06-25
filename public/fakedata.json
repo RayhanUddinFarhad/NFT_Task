@@ -81,7 +81,7 @@
     {
         "id" : 9,
 
-        "image": "https://i.ibb.co/yd9QGD9/Banner-Image-3.png",
+        "image": "https://i.ibb.co/dDKpcKy/Banner-Image-2.png",
         "name": "Name Crypto",
         "ethPrice": 0.8,
         "totalStock": 150,
@@ -91,7 +91,7 @@
     {
         "id" : 10,
 
-        "image": "https://i.ibb.co/GdxNDHG/Image1.png",
+        "image": "https://i.ibb.co/yd9QGD9/Banner-Image-3.png",
         "name": "KingCrypto",
         "ethPrice": 1.2,
         "totalStock": 50,
@@ -121,7 +121,7 @@
     {
         "id" : 13,
 
-        "image": "https://i.ibb.co/tqBjBDx/Banner-Image-1.png",
+        "image": "https://i.ibb.co/dDKpcKy/Banner-Image-2.png",
         "name": "ArtCrypto",
         "ethPrice": 1.5,
         "totalStock": 100,
@@ -131,7 +131,7 @@
     {
         "id" : 14,
 
-        "image": "https://i.ibb.co/dDKpcKy/Banner-Image-2.png",
+        "image": "https://i.ibb.co/yd9QGD9/Banner-Image-3.png",
         "name": "This NFT",
         "ethPrice": 2.0,
         "totalStock": 200,
@@ -141,7 +141,7 @@
     {
         "id" : 15,
 
-        "image": "https://i.ibb.co/yd9QGD9/Banner-Image-3.png",
+        "image": "https://i.ibb.co/dDKpcKy/Banner-Image-2.png",
         "name": "Name Crypto",
         "ethPrice": 0.8,
         "totalStock": 150,
@@ -151,7 +151,7 @@
     {
         "id" : 16,
 
-        "image": "https://i.ibb.co/GdxNDHG/Image1.png",
+        "image": "https://i.ibb.co/yd9QGD9/Banner-Image-3.png",
         "name": "KingCrypto",
         "ethPrice": 1.2,
         "totalStock": 50,
@@ -171,7 +171,7 @@
     {
         "id" : 18,
 
-        "image": "https://i.ibb.co/yd9QGD9/Banner-Image-3.png",
+        "image": "https://i.ibb.co/GdxNDHG/Image1.png",
         "name": "This NFT",
         "ethPrice": 2.5,
         "totalStock": 75,

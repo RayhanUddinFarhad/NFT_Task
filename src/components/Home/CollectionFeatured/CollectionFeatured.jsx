@@ -49,7 +49,7 @@ const CollectionFeatured = () => {
                         </div>
                         <div>
 
-                            <button className='button-secondary text-xs'>Total 54 Items</button>
+                            <button className='button-secondary text-xs font-bold'>Total 54 Items</button>
                         </div>
                     </div>
 
@@ -82,7 +82,7 @@ const CollectionFeatured = () => {
                         </div>
                         <div>
 
-                            <button className='button-secondary text-xs'>Total 54 Items</button>
+                            <button className='button-secondary text-xs font-bold'>Total 54 Items</button>
                         </div>
                     </div>
 
@@ -113,7 +113,7 @@ const CollectionFeatured = () => {
                         </div>
                         <div>
 
-                            <button className='button-secondary text-xs'>Total 54 Items</button>
+                            <button className='button-secondary text-xs font-bold'>Total 54 Items</button>
                         </div>
                     </div>
 
