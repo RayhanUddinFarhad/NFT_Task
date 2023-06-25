@@ -44,8 +44,8 @@ const Card = ({ data }) => {
                 </div>
 
                 <div className='flex justify-between pt-10'>
-                    <button className='bg-gray-100 p-2 rounded-3xl text-[#5539A8] font-bold text-sm'>3h 50m 2s left</button>
-                    <button className='text-[#5539A8] font-bold'>Place a  bid</button>
+                    <button className='bg-gray-100 p-2 rounded-3xl text-[#5539A8] font-bold text-sm whitespace-nowrap'>3h 50m 2s left</button>
+                    <button className='text-[#5539A8] font-bold whitespace-nowrap'>Place a  bid</button>
 
 
                 </div>

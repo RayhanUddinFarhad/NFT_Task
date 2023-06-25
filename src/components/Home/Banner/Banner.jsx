@@ -8,7 +8,7 @@ import dot from '../../../assets/Images/Dot.png'
 const Banner = () => {
     return (
         <div>
-            <div className='lg:flex items-center justify-evenly mt-10 px-20 '>
+            <div className='lg:flex items-center justify-evenly mt-10 '>
                 <div className='space-y-5 '>
                     <h1 className='text-4xl font-extrabold uppercase'>Discover, And Collect Digital Art NFTS</h1>
                     <p>Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.</p>

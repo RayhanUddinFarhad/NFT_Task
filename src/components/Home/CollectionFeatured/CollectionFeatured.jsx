@@ -13,7 +13,7 @@ import person from '../../../assets/Images/person1.png'
 
 const CollectionFeatured = () => {
     return (
-        <div className='bg-gray-100 py-5 w-full mx-auto px-20 flex flex-col '>
+        <div className='bg-gray-100 py-5 p-10 mx-auto  '>
 
 <h1 className='font-extrabold text-4xl text-left '>Collection Featured NFTS</h1>
 

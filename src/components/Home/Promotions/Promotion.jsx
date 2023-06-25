@@ -6,7 +6,7 @@ import person from '../../../assets/Images/person1.png'
 
 const Promotion = () => {
     return (
-        <div className='flex px-20 items-center space-x-10 justify-center'>
+        <div className='flex  items-center space-x-10 justify-center'>
 
             <div className='flex space-x-10 items-center'>
 

@@ -6,7 +6,7 @@ import TopCollectionOver from './TopCollectionOver';
 
 const TopCollections = () => {
     return (
-        <div className='flex space-x-10 justify-center px-20'>
+        <div className='flex space-x-10 justify-center '>
 
             <div>
 
@@ -49,7 +49,7 @@ const TopCollections = () => {
                         <div className='flex items-center space-x-2 text-xs'>
                             <img src={person} alt="" />
                             <p className='outline outline-1 outline-[#00AC4F] text-[#00AC4F] p-1'>0.25ETH</p>
-                            <p>1 of B</p>
+                            <p className='whitespace-nowrap'>1 of B</p>
                         </div>
                         <button className='button-primary text-xs'>Place  a bid</button>
 
@@ -71,7 +71,7 @@ const TopCollections = () => {
                         <div className='flex items-center space-x-2 text-xs'>
                             <img src={person} alt="" />
                             <p>0.25ETH</p>
-                            <p>1 of B</p>
+                            <p className='whitespace-nowrap'>1 of B</p>
                         </div>
                         <button className='button-secondary text-xs'>Place  a bid</button>
 
@@ -93,7 +93,7 @@ const TopCollections = () => {
                         <div className='flex items-center space-x-2 text-xs'>
                             <img src={person} alt="" />
                             <p>0.25ETH</p>
-                            <p>1 of B</p>
+                            <p className='whitespace-nowrap'>1 of B</p>
                         </div>
                         <button className='button-secondary text-xs'>Place  a bid</button>
 
