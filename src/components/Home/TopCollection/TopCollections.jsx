@@ -6,7 +6,7 @@ import TopCollectionOver from './TopCollectionOver';
 
 const TopCollections = () => {
     return (
-        <div className='flex space-x-10 justify-center'>
+        <div className='flex space-x-10 justify-center px-20'>
 
             <div>
 
