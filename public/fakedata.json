@@ -1,0 +1,181 @@
+[
+    {
+        "id" : 1,
+        "image": "https://i.ibb.co/tqBjBDx/Banner-Image-1.png",
+        "name": "ArtCrypto",
+        "ethPrice": 1.5,
+        "totalStock": 100,
+        "totalSold": 50,
+        "category": "Art"
+    },
+    {
+        "id" : 2,
+
+        "image": "https://i.ibb.co/dDKpcKy/Banner-Image-2.png",
+        "name": "This NFT",
+        "ethPrice": 2.0,
+        "totalStock": 200,
+        "totalSold": 100,
+        "category": "Celebrities"
+    },
+    {
+        "id" : 3,
+
+        "image": "https://i.ibb.co/yd9QGD9/Banner-Image-3.png",
+        "name": "Name Crypto",
+        "ethPrice": 0.8,
+        "totalStock": 150,
+        "totalSold": 75,
+        "category": "Gaming"
+    },
+    {
+        "id" : 4,
+
+        "image": "https://i.ibb.co/GdxNDHG/Image1.png",
+        "name": "KingCrypto",
+        "ethPrice": 1.2,
+        "totalStock": 50,
+        "totalSold": 25,
+        "category": "Sport"
+    },
+    {
+        "id" : 5,
+
+        "image": "https://i.ibb.co/GdxNDHG/Image1.png",
+        "name": "ArtCrypto",
+        "ethPrice": 3.5,
+        "totalStock": 300,
+        "totalSold": 150,
+        "category": "Music"
+    },
+    {
+        "id" : 6,
+
+        "image": "https://i.ibb.co/yd9QGD9/Banner-Image-3.png",
+        "name": "This NFT",
+        "ethPrice": 2.5,
+        "totalStock": 75,
+        "totalSold": 50,
+        "category": "Crypto"
+    },
+    {
+        "id" : 7,
+
+        "image": "https://i.ibb.co/tqBjBDx/Banner-Image-1.png",
+        "name": "ArtCrypto",
+        "ethPrice": 1.5,
+        "totalStock": 100,
+        "totalSold": 50,
+        "category": "Art"
+    },
+    {
+        "id" : 8,
+
+        "image": "https://i.ibb.co/dDKpcKy/Banner-Image-2.png",
+        "name": "This NFT",
+        "ethPrice": 2.0,
+        "totalStock": 200,
+        "totalSold": 100,
+        "category": "Celebrities"
+    },
+    {
+        "id" : 9,
+
+        "image": "https://i.ibb.co/yd9QGD9/Banner-Image-3.png",
+        "name": "Name Crypto",
+        "ethPrice": 0.8,
+        "totalStock": 150,
+        "totalSold": 75,
+        "category": "Gaming"
+    },
+    {
+        "id" : 10,
+
+        "image": "https://i.ibb.co/GdxNDHG/Image1.png",
+        "name": "KingCrypto",
+        "ethPrice": 1.2,
+        "totalStock": 50,
+        "totalSold": 25,
+        "category": "Sport"
+    },
+    {
+        "id" : 11,
+
+        "image": "https://i.ibb.co/GdxNDHG/Image1.png",
+        "name": "ArtCrypto",
+        "ethPrice": 3.5,
+        "totalStock": 300,
+        "totalSold": 150,
+        "category": "Music"
+    },
+    {
+        "id" : 12,
+
+        "image": "https://i.ibb.co/yd9QGD9/Banner-Image-3.png",
+        "name": "This NFT",
+        "ethPrice": 2.5,
+        "totalStock": 75,
+        "totalSold": 50,
+        "category": "Crypto"
+    },
+    {
+        "id" : 13,
+
+        "image": "https://i.ibb.co/tqBjBDx/Banner-Image-1.png",
+        "name": "ArtCrypto",
+        "ethPrice": 1.5,
+        "totalStock": 100,
+        "totalSold": 50,
+        "category": "Art"
+    },
+    {
+        "id" : 14,
+
+        "image": "https://i.ibb.co/dDKpcKy/Banner-Image-2.png",
+        "name": "This NFT",
+        "ethPrice": 2.0,
+        "totalStock": 200,
+        "totalSold": 100,
+        "category": "Celebrities"
+    },
+    {
+        "id" : 15,
+
+        "image": "https://i.ibb.co/yd9QGD9/Banner-Image-3.png",
+        "name": "Name Crypto",
+        "ethPrice": 0.8,
+        "totalStock": 150,
+        "totalSold": 75,
+        "category": "Gaming"
+    },
+    {
+        "id" : 16,
+
+        "image": "https://i.ibb.co/GdxNDHG/Image1.png",
+        "name": "KingCrypto",
+        "ethPrice": 1.2,
+        "totalStock": 50,
+        "totalSold": 25,
+        "category": "Sport"
+    },
+    {
+        "id" : 17,
+
+        "image": "https://i.ibb.co/GdxNDHG/Image1.png",
+        "name": "ArtCrypto",
+        "ethPrice": 3.5,
+        "totalStock": 300,
+        "totalSold": 150,
+        "category": "Music"
+    },
+    {
+        "id" : 18,
+
+        "image": "https://i.ibb.co/yd9QGD9/Banner-Image-3.png",
+        "name": "This NFT",
+        "ethPrice": 2.5,
+        "totalStock": 75,
+        "totalSold": 50,
+        "category": "Crypto"
+    }
+]

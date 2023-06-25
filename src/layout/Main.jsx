@@ -3,6 +3,8 @@ import Banner from '../components/Home/Banner/Banner';
 import Navbar from '../Shared/Navbar';
 import TopCollections from '../components/Home/TopCollection/TopCollections';
 import CollectionFeatured from '../components/Home/CollectionFeatured/CollectionFeatured';
+import Promotion from '../components/Home/Promotions/Promotion';
+import Discover from '../components/Home/Discover/Discover';
 
 const Main = () => {
     return (
@@ -15,6 +17,8 @@ const Main = () => {
 
         <TopCollections></TopCollections>
         <CollectionFeatured></CollectionFeatured>
+        <Promotion></Promotion>
+        <Discover></Discover>
         </div>
         
         </>
