@@ -14,7 +14,7 @@ const Main = () => {
         <Navbar></Navbar>
 
         <Banner></Banner>
-        <div className='mt-32 space-y-20'>
+        <div className='mt-72 space-y-20'>
 
         <TopCollections></TopCollections>
         <CollectionFeatured></CollectionFeatured>

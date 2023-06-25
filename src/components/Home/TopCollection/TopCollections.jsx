@@ -16,10 +16,10 @@ const TopCollections = () => {
 
                 <div className='flex items-center justify-between mt-5'>
 
-                    <div className='flex items-center space-x-2'>
+                    <div className='flex items-center  lg:space-x-2'>
 
                         <img src={person} alt="" />
-                        <div>
+                        <div >
                             <h1 className='text-lg font-bold'>The Futr Abstr</h1>
                             <p>10 in stock</p>
 
@@ -48,7 +48,7 @@ const TopCollections = () => {
                     <div className='space-y-2'>
 
                         <h4 className='font-bold text-lg'>The Futr Abstr</h4>
-                        <div className='flex items-center space-x-2 text-xs'>
+                        <div className='lg:flex items-center lg:space-x-2 space-y-2 lg:space-y-0 text-xs'>
                             <img src={person} alt="" />
                             <p className='outline outline-1 outline-[#00AC4F] text-[#00AC4F] p-1 flex  items-center'> <FaEthereum></FaEthereum> 0.25ETH</p>
                             <p className='whitespace-nowrap'>1 of B</p>
@@ -70,7 +70,7 @@ const TopCollections = () => {
                     <div className='space-y-2'>
 
                         <h4 className='font-bold text-lg'>The Futr Abstr</h4>
-                        <div className='flex items-center space-x-2 text-xs'>
+                        <div className='lg:flex items-center lg:space-x-2 space-y-2 lg:space-y-0 text-xs'>
                             <img src={person} alt="" />
                             <p className='outline outline-1 outline-[#00AC4F] text-[#00AC4F] p-1 flex  items-center'> <FaEthereum></FaEthereum> 0.25ETH</p>
                             <p className='whitespace-nowrap'>1 of B</p>
@@ -92,7 +92,7 @@ const TopCollections = () => {
                     <div className='space-y-2'>
 
                         <h4 className='font-bold text-lg'>The Futr Abstr</h4>
-                        <div className='flex items-center space-x-2 text-xs'>
+                        <div className='lg:flex items-center lg:space-x-2 space-y-2 lg:space-y-0 text-xs'>
                             <img src={person} alt="" />
                             <p className='outline outline-1 outline-[#00AC4F] text-[#00AC4F] p-1 flex  items-center'> <FaEthereum></FaEthereum> 0.25ETH</p>
                             <p className='whitespace-nowrap'>1 of B</p>

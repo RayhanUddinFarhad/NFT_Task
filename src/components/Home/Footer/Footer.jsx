@@ -4,7 +4,7 @@ import { FaFacebook, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-10 bg-base-200 text-base-content">
+            <footer className="footer p-10  text-base-content">
                 <div className='space-y-3'>
                     <h1 className='font-extrabold text-2xl'>NFTERS</h1>
                     <p>The world’s first and largest digital marketplace for  <br /> crypto collectibles and non-fungible tokens (NFTs). <br /> Buy, sell, and discover exclusive digital items.</p>
@@ -47,7 +47,12 @@ const Footer = () => {
       </div>
     </div>
     </div>
+
+    
             </footer>
+            <div className='text-center my-10'>
+    <p>Copyright © 2023 - Rayhan Uddin Farhad</p>
+  </div>
         </div>
     );
 };
