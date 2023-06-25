@@ -1,47 +1,118 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Navbar = () => {
-    return (
-        <div className="navbar bg-base-100">
-  <div className="navbar-start">
-    <div className="dropdown">
-      <label tabIndex={0} className="btn btn-ghost lg:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-      </label>
-      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
-      </ul>
-    </div>
-    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
-  </div>
-  <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li tabIndex={0}>
-        <details>
-          <summary>Parent</summary>
-          <ul className="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a>Item 3</a></li>
-    </ul>
-  </div>
-  <div className="navbar-end">
-    <a className="btn">Button</a>
-  </div>
-</div>
-    );
+  const [navbar, setNavbar] = useState(false);
+
+  return (
+    <nav className="max-w-screen-lg text-black mx-auto ">
+      <div className="lg:space-x-32 px-4 mx-auto   lg:max-w-7xl md:items-center md:flex md:px-8">
+        <div>
+          <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <a href="javascript:void(0)">
+              <h2 className="text-2xl font-extrabold text-[#3D00B7]">NFTERS</h2>
+            </a>
+            <div className="md:hidden">
+              <button
+                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                onClick={() => setNavbar(!navbar)}
+              >
+                {navbar ? (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-6 h-6 text-black"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                ) : (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-6 h-6 text-black"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+              }`}
+          >
+            <ul className="items-center lg:justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 text-black font-bold">
+              <li className="text-black hover:text-indigo-200">
+                <a href="">Marketplace</a>
+              </li>
+              <li className="text-black hover:text-indigo-200">
+                <a href="javascript:void(0)">Resource</a>
+              </li>
+              <li className="text-black hover:text-indigo-200">
+                <a href="javascript:void(0)">About</a>
+              </li>
+             
+            </ul>
+
+            <div className="lg:hidden  ">
+          <div className="flex-none gap-2 my-5">
+            <div className="form-control">
+              <input type="text" placeholder="Search" className="input input-bordered max-w-max md:w-auto" />
+            </div>
+          </div>
+          <div className=''>
+
+          <a
+            href="javascript:void(0)"
+            className="button-primary btn-sm hover:bg-gray-100"
+          >
+            Upload
+          </a>
+          <a
+            href="javascript:void(0)"
+            className="button-secondary btn-sm whitespace-nowrap"
+          >
+            Connect Wallet
+          </a>
+          </div>
+        </div>
+          </div>
+        </div>
+        <div className="hidden space-x-2  md:flex">
+          <div className="flex-none gap-2">
+            <div className="form-control">
+              <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+            </div>
+          </div>
+          <a
+            href="javascript:void(0)"
+            className="button-primary hover:bg-gray-100 whitespace-nowrap btn-md"
+          >
+            Upload
+          </a>
+          <a
+            href="javascript:void(0)"
+            className="button-secondary btn-md whitespace-nowrap"
+          >
+            Connect Wallet
+          </a>
+        </div>
+      </div>
+    </nav>
+  );
 };
 
 export default Navbar;

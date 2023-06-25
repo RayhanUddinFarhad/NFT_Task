@@ -6,9 +6,9 @@ import person from '../../../assets/Images/person1.png'
 
 const Promotion = () => {
     return (
-        <div className='flex  items-center space-x-10 justify-center'>
+        <div className='lg:flex  items-center lg:space-x-10 justify-center lg:space-y-0  space-y-10'>
 
-            <div className='flex space-x-10 items-center'>
+            <div className='flex space-x-10 items-center '>
 
 
                 <div>
@@ -28,7 +28,7 @@ const Promotion = () => {
                 <div className='relative'>
 
                     <img className='h-64 object-contain' src={image2} alt="" />
-                    <img className='absolute -bottom-5 -right-5' src={person} alt="" />
+                    <img className='absolute bottom-5 lg:-bottom-5 lg:-right-5 right-0' src={person} alt="" />
 
 
                 </div>

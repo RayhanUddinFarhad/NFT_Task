@@ -8,7 +8,7 @@ import dot from '../../../assets/Images/Dot.png'
 const Banner = () => {
     return (
         <div>
-            <div className='lg:flex items-center justify-evenly mt-10 '>
+            <div className='lg:flex items-center justify-evenly mt-10 space-y-10'>
                 <div className='space-y-5 '>
                     <h1 className='text-4xl font-extrabold uppercase'>Discover, And Collect Digital Art NFTS</h1>
                     <p>Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.</p>
@@ -17,18 +17,18 @@ const Banner = () => {
                         <button className='button-primary'>Explore more</button>
 
 
-                        <div className='flex space-x-5 bg-no-repeat bg-contain py-8' style={{ backgroundImage: `url(${dot})` }}>
+                        <div className='flex  space-x-5 bg-no-repeat bg-contain py-8' style={{ backgroundImage: `url(${dot})` }}>
 
                             <div>
-                                <h1 className='text-5xl font-extrabold'>98k+</h1>
+                                <h1 className='lg:text-5xl text-lg font-extrabold'>98k+</h1>
                                 <p>Artwork</p>
                             </div>
                             <div>
-                                <h1 className='text-5xl font-extrabold'>12k+</h1>
+                                <h1 className='lg:text-5xl text-lg font-extrabold'>12k+</h1>
                                 <p>Auction</p>
                             </div>
                             <div>
-                                <h1 className='text-5xl font-extrabold'>15k+</h1>
+                                <h1 className='lg:text-5xl text-lg font-extrabold'>15k+</h1>
                                 <p>Artist</p>
                             </div>
                         </div>
@@ -36,8 +36,8 @@ const Banner = () => {
 
                 </div>
 
-                <div className='relative max-w-max mr-5'>
-                    <div className='absolute z-10'>
+                <div className='relative lg:max-w-max  mr-5'>
+                    <div className='absolute z-10 max-w-max'>
                         <div className='relative'>
                             <img src={img1} alt='' />
                             <div className='absolute top-5 left-5 text-white font-semibold space-y-2'>
@@ -79,8 +79,8 @@ const Banner = () => {
                         </div>
 
                     </div>
-                    <div className='relative'>
-                        <img className='absolute z-0 bottom-0 left-7 transition-transform ' src={img2} alt='' />
+                    <div className='relative '>
+                        <img className='absolute z-0 bottom-0 left-7  transition-transform ' src={img2} alt='' />
                         <img className='relative -z-10 bottom-0 left-12 transition-transform ' src={img3} alt='' />
                     </div>
                 </div>

@@ -28,7 +28,7 @@ const Discover = () => {
 
 
     return (
-        <div className=''>
+        <div className='bg-gray-50 p-5'>
 
             <h1 className='text-3xl font-extrabold'>Discover More NFTS</h1>
 
@@ -38,7 +38,7 @@ const Discover = () => {
 
 
                 <Tabs selectedTabClassName='button-primary' className='outline-0'>
-                    <div className='flex items-center justify-between'>
+                    <div className='lg:flex items-center justify-between'>
 
                     <TabList className='my-8 '>
                         <Tab>All Categories</Tab>
@@ -60,7 +60,7 @@ const Discover = () => {
                 </div>
                     </div>
 
-                    <TabPanel className='grid lg:grid-cols-4 gap-10 justify-center'>
+                    <TabPanel className='grid lg:grid-cols-4 sm:grid-cols-2 gap-10 justify-center'>
 
                         {
                             sortByPrice ? sortedData.map(data => <Card data={data}></Card>) : fakedata.map(data => <Card data={data}></Card>)

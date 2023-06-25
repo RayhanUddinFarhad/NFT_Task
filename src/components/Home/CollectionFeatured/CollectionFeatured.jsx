@@ -13,21 +13,21 @@ import person from '../../../assets/Images/person1.png'
 
 const CollectionFeatured = () => {
     return (
-        <div className='bg-gray-100 py-5 p-10 mx-auto  '>
+        <div className='bg-gray-50 py-5 p-10 mx-auto  '>
 
 <h1 className='font-extrabold text-4xl text-left '>Collection Featured NFTS</h1>
 
 
 
-            <div className='flex space-x-7 mx-auto '>
+            <div className='lg:flex space-y-5  lg:space-y-0 lg:space-x-7 mx-auto '>
 
 
 
                 <div>
 
-                    <div className='flex space-x-3 mt-10'>
+                    <div className='lg:flex lg:space-x-3 mt-10'>
                         <img className='h-64' src={image1} alt="" />
-                        <div className='space-y-2'>
+                        <div className='lg:space-y-2 flex lg:block'>
 
                             <img className='h-20 w-24 rounded-lg object-cover' src={image2} alt="" />
                             <img className='h-20 w-24 rounded-lg object-cover' src={image5} alt="" />
@@ -58,9 +58,9 @@ const CollectionFeatured = () => {
 
                 <div>
 
-                    <div className='flex space-x-3 mt-10'>
-                        <img className='h-64' src={image7} alt="" />
-                        <div className='space-y-2'>
+                    <div className='lg:flex lg:space-x-3 mt-10'>
+                        <img className='h-64 max-w-full' src={image7} alt="" />
+                        <div className='lg:space-y-2 flex lg:block'>
 
                             <img className='h-20 w-24 rounded-lg object-cover' src={image5} alt="" />
                             <img className='h-20 w-24 rounded-lg object-cover' src={image2} alt="" />
@@ -89,9 +89,9 @@ const CollectionFeatured = () => {
                 </div>
                 <div>
 
-                    <div className='flex space-x-3 mt-10'>
+                    <div className='lg:flex lg:space-x-3 mt-10'>
                         <img className='h-64' src={image3} alt="" />
-                        <div className='space-y-2'>
+                        <div className='lg:space-y-2 flex lg:block'>
 
                             <img className='h-20 w-24 rounded-lg object-cover' src={image9} alt="" />
                             <img className='h-20 w-24 rounded-lg object-cover' src={image4} alt="" />
