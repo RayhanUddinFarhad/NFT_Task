@@ -9,15 +9,15 @@ const Banner = () => {
     return (
         <div>
             <div className='lg:flex items-center justify-center mt-10'>
-                <div className='space-y-5 max-w-3xl'>
+                <div className='space-y-5 '>
                     <h1 className='text-5xl font-extrabold uppercase'>Discover, And Collect Digital Art NFTS</h1>
                     <p>Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.</p>
                     <div>
 
-                        <button className='bg-[#3D00B7] text-white py-3 px-5 rounded-3xl font-semibold'>Explore more</button>
+                        <button className='button-primary'>Explore more</button>
 
 
-                        <div className='flex space-x-5 bg-no-repeat bg-contain py-8' style={{backgroundImage: `url(${dot})`}}>
+                        <div className='flex space-x-5 bg-no-repeat bg-contain py-8' style={{ backgroundImage: `url(${dot})` }}>
 
                             <div>
                                 <h1 className='text-5xl font-extrabold'>98k+</h1>
