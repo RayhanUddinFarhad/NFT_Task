@@ -10,9 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "react": "^18.2.0",
+    "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "react-reveal": "^1.2.2",
+    "react-simple-typewriter": "^5.0.1",
     "react-tabs": "^6.0.1"
   },
   "devDependencies": {

@@ -40,8 +40,8 @@ const Discover = () => {
                 <Tabs selectedTabClassName='button-primary' className='outline-0'>
                     <div className='lg:flex items-center justify-between'>
 
-                    <TabList className='my-8 '>
-                        <Tab>All Categories</Tab>
+                    <TabList className='my-8 bg-gray-100 p-2 rounded-3xlbg-gray-100 p-2 rounded-3xl '>
+                        <Tab >All Categories</Tab>
                         <Tab>Art</Tab>
                         <Tab>Celebrities</Tab>
                         <Tab>Gaming</Tab>

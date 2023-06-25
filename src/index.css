@@ -4,11 +4,17 @@
 
 
 .button-primary {
-
-    @apply bg-[#3D00B7] text-white py-3 px-5 rounded-3xl font-semibold
+    @apply bg-[#3D00B7] text-white py-3 px-5 rounded-3xl font-semibold transition-colors duration-300;
 }
 
-.button-secondary { 
+.button-secondary {
+    @apply outline-[#3D00B7] outline outline-1 text-[#3D00B7] py-3 px-5 rounded-3xl font-semibold transition-colors duration-300;
+}
 
-    @apply outline-[#3D00B7] outline outline-1  text-[#3D00B7] py-3 px-5 rounded-3xl font-semibold
+.button-primary:hover {
+    @apply bg-transparent outline-[#3D00B7] outline outline-1 text-[#3D00B7] py-3 px-5 rounded-3xl font-semibold transition-colors duration-300;
+}
+
+.button-secondary:hover {
+    @apply bg-[#3D00B7] text-white;
 }

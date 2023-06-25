@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaSearch } from 'react-icons/fa';
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -70,7 +71,7 @@ const Navbar = () => {
             <div className="lg:hidden  ">
           <div className="flex-none gap-2 my-5">
             <div className="form-control">
-              <input type="text" placeholder="Search" className="input input-bordered max-w-max md:w-auto" />
+              <input type="text" placeholder="Search" className="input input-bordered max-w-max md:w-auto rounded-3xl" />
             </div>
           </div>
           <div className=''>
@@ -93,8 +94,9 @@ const Navbar = () => {
         </div>
         <div className="hidden space-x-2  md:flex">
           <div className="flex-none gap-2">
-            <div className="form-control">
-              <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
+            <div className="form-control relative">
+              <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto rounded-3xl" />
+              <FaSearch className='absolute right-4 top-4 text-gray-300'></FaSearch>
             </div>
           </div>
           <a

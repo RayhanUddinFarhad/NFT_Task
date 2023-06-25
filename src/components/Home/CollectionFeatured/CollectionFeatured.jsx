@@ -15,7 +15,7 @@ const CollectionFeatured = () => {
     return (
         <div className='bg-gray-50 py-5 p-10 mx-auto  '>
 
-<h1 className='font-extrabold text-4xl text-left '>Collection Featured NFTS</h1>
+            <h1 className='font-extrabold text-4xl text-left '>Collection Featured NFTS</h1>
 
 
 
@@ -23,10 +23,10 @@ const CollectionFeatured = () => {
 
 
 
-                <div>
+                <div data-aos="flip-left" data-aos-duration = "1000">
 
                     <div className='lg:flex lg:space-x-3 mt-10'>
-                        <img className='h-64' src={image1} alt="" />
+                        <img className='h-64 transition ease-in-out   hover:-translate-y-1 hover:scale-110  duration-300' src={image1} alt="" />
                         <div className='lg:space-y-2 flex lg:block'>
 
                             <img className='h-20 w-24 rounded-lg object-cover' src={image2} alt="" />
@@ -58,8 +58,8 @@ const CollectionFeatured = () => {
 
                 <div>
 
-                    <div className='lg:flex lg:space-x-3 mt-10'>
-                        <img className='h-64 max-w-full' src={image7} alt="" />
+                    <div data-aos="flip-right" data-aos-duration = "1000" className='lg:flex lg:space-x-3 mt-10'>
+                        <img className='h-64 max-w-full transition ease-in-out   hover:-translate-y-1 hover:scale-110  duration-300' src={image7} alt="" />
                         <div className='lg:space-y-2 flex lg:block'>
 
                             <img className='h-20 w-24 rounded-lg object-cover' src={image5} alt="" />
@@ -89,8 +89,8 @@ const CollectionFeatured = () => {
                 </div>
                 <div>
 
-                    <div className='lg:flex lg:space-x-3 mt-10'>
-                        <img className='h-64' src={image3} alt="" />
+                    <div data-aos="flip-up" data-aos-duration = "1000" className='lg:flex lg:space-x-3 mt-10'>
+                        <img className='h-64 transition ease-in-out   hover:-translate-y-1 hover:scale-110  duration-300' src={image3} alt="" />
                         <div className='lg:space-y-2 flex lg:block'>
 
                             <img className='h-20 w-24 rounded-lg object-cover' src={image9} alt="" />

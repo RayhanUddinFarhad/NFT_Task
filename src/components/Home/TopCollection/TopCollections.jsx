@@ -3,14 +3,16 @@ import img1 from '../../../assets/Images//Image1.png'
 import person from '../../../assets/Images/person1.png'
 import img2 from '../../../assets/Images/image2.png'
 import TopCollectionOver from './TopCollectionOver';
+import { FaEthereum } from 'react-icons/fa';
+
 
 const TopCollections = () => {
     return (
-        <div className='lg:flex space-x-10 space-y-10 lg:space-y-0  justify-center '>
+        <div data-aos = "fade-up-right" data-aos-duration = "1000" className='lg:flex space-x-10 space-y-10 lg:space-y-0  justify-center '>
 
             <div>
 
-                <img src={img1} alt="" />
+                <img className='' src={img1} alt="" />
 
                 <div className='flex items-center justify-between mt-5'>
 
@@ -26,7 +28,7 @@ const TopCollections = () => {
 
                     <div>
                         <p className='text-sm'>Highest Bid</p>
-                        <p className='font-semibold'>0.25 TH</p>
+                        <p className='font-semibold flex items-center'><FaEthereum></FaEthereum> 0.25 TH</p>
 
                     </div>
 
@@ -48,7 +50,7 @@ const TopCollections = () => {
                         <h4 className='font-bold text-lg'>The Futr Abstr</h4>
                         <div className='flex items-center space-x-2 text-xs'>
                             <img src={person} alt="" />
-                            <p className='outline outline-1 outline-[#00AC4F] text-[#00AC4F] p-1'>0.25ETH</p>
+                            <p className='outline outline-1 outline-[#00AC4F] text-[#00AC4F] p-1 flex  items-center'> <FaEthereum></FaEthereum> 0.25ETH</p>
                             <p className='whitespace-nowrap'>1 of B</p>
                         </div>
                         <button className='button-primary text-xs'>Place  a bid</button>
@@ -70,7 +72,7 @@ const TopCollections = () => {
                         <h4 className='font-bold text-lg'>The Futr Abstr</h4>
                         <div className='flex items-center space-x-2 text-xs'>
                             <img src={person} alt="" />
-                            <p>0.25ETH</p>
+                            <p className='outline outline-1 outline-[#00AC4F] text-[#00AC4F] p-1 flex  items-center'> <FaEthereum></FaEthereum> 0.25ETH</p>
                             <p className='whitespace-nowrap'>1 of B</p>
                         </div>
                         <button className='button-secondary text-xs'>Place  a bid</button>
@@ -92,7 +94,7 @@ const TopCollections = () => {
                         <h4 className='font-bold text-lg'>The Futr Abstr</h4>
                         <div className='flex items-center space-x-2 text-xs'>
                             <img src={person} alt="" />
-                            <p>0.25ETH</p>
+                            <p className='outline outline-1 outline-[#00AC4F] text-[#00AC4F] p-1 flex  items-center'> <FaEthereum></FaEthereum> 0.25ETH</p>
                             <p className='whitespace-nowrap'>1 of B</p>
                         </div>
                         <button className='button-secondary text-xs'>Place  a bid</button>

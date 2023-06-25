@@ -8,7 +8,7 @@ const Promotion = () => {
     return (
         <div className='lg:flex  items-center lg:space-x-10 justify-center lg:space-y-0  space-y-10'>
 
-            <div className='flex space-x-10 items-center '>
+            <div data-aos="fade-right" data-aos-duration="1000" className='flex space-x-10 items-center '>
 
 
                 <div>
@@ -36,7 +36,7 @@ const Promotion = () => {
             </div>
 
 
-            <div className='space-y-5 max-w-lg'>
+            <div data-aos="fade-left" data-aos-duration="1000" className='space-y-5 max-w-lg'>
 
                 <h1 className='text-xl font-extrabold'>Create and Sell your NFTS</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi ac phasellus placerat a pellentesque tellus sed egestas. Et tristique dictum sit tristique sed non. Lacinia lorem id consectetur pretium diam ut. Pellentesque eu sit blandit fringilla risus faucibus.</p>

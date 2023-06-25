@@ -1,5 +1,8 @@
 import React from 'react';
 import person from '../../../assets/Images/person1.png'
+import { FaEthereum } from 'react-icons/fa';
+import Roll from 'react-reveal/Roll';
+
 
 const Card = ({ data }) => {
     return (
@@ -8,6 +11,8 @@ const Card = ({ data }) => {
 
                 <img className='h-60' src={data.image} alt="" />
 
+
+                <Roll left>
 
                 <div className="avatar-group -space-x-4 absolute -bottom-3 ">
                     <div className="avatar">
@@ -31,13 +36,14 @@ const Card = ({ data }) => {
                         </div>
                     </div>
                 </div>
+                </Roll>
 
             </div>
             <div className='pt-5'>
                 <h1 className='font-bold'>{data.name}</h1>
                 <div className='flex justify-between'>
 
-                    <p className='text-green-500 font-bold text-xs'>{data.ethPrice} ETH</p>
+                    <p className='text-green-500 font-bold text-xs flex items-center'><FaEthereum></FaEthereum> {data.ethPrice} ETH</p>
                     <p>{data.totalStock} of {data.totalSold}</p>
 
 
