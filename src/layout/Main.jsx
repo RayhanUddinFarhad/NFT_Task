@@ -14,7 +14,7 @@ const Main = () => {
         <Navbar></Navbar>
 
         <Banner></Banner>
-        <div className='mt-72 space-y-20'>
+        <div className='mt-72 space-y-20 mx-auto flex flex-col justify-center'>
 
         <TopCollections></TopCollections>
         <CollectionFeatured></CollectionFeatured>

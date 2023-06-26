@@ -28,7 +28,7 @@ const Discover = () => {
 
 
     return (
-        <div className='bg-gray-50 p-5'>
+        <div className='bg-gray-50 p-5 mx-auto'>
 
             <h1 className='text-3xl font-extrabold'>Discover More NFTS</h1>
 

@@ -13,17 +13,19 @@ import person from '../../../assets/Images/person1.png'
 
 const CollectionFeatured = () => {
     return (
-        <div className='bg-gray-50 py-5 p-10 mx-auto  '>
-
-            <h1 className='font-extrabold text-4xl text-left '>Collection Featured NFTS</h1>
+        <div className='bg-gray-50 py-5 p-10 mx-auto flex flex-col justify-center '>
 
 
-
-            <div className='lg:flex space-y-5  lg:space-y-0 lg:space-x-7 mx-auto '>
-
+<h1 className='font-extrabold text-4xl text-left '>Collection Featured NFTS</h1>
 
 
-                <div data-aos="flip-left" data-aos-duration = "1000">
+            <div className='lg:flex space-y-5  lg:space-y-0 lg:space-x-7  '>
+
+
+
+
+
+                <div data-aos="flip-left" data-aos-duration="1000">
 
                     <div className='lg:flex lg:space-x-3 mt-10'>
                         <img className='h-64 transition ease-in-out   hover:-translate-y-1 hover:scale-110  duration-300' src={image1} alt="" />
@@ -58,7 +60,7 @@ const CollectionFeatured = () => {
 
                 <div>
 
-                    <div data-aos="flip-right" data-aos-duration = "1000" className='lg:flex lg:space-x-3 mt-10'>
+                    <div data-aos="flip-right" data-aos-duration="1000" className='lg:flex lg:space-x-3 mt-10'>
                         <img className='h-64 max-w-full transition ease-in-out   hover:-translate-y-1 hover:scale-110  duration-300' src={image7} alt="" />
                         <div className='lg:space-y-2 flex lg:block'>
 
@@ -89,7 +91,7 @@ const CollectionFeatured = () => {
                 </div>
                 <div>
 
-                    <div data-aos="flip-up" data-aos-duration = "1000" className='lg:flex lg:space-x-3 mt-10'>
+                    <div data-aos="flip-up" data-aos-duration="1000" className='lg:flex lg:space-x-3 mt-10'>
                         <img className='h-64 transition ease-in-out   hover:-translate-y-1 hover:scale-110  duration-300' src={image3} alt="" />
                         <div className='lg:space-y-2 flex lg:block'>
 
